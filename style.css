@@ -31,3 +31,59 @@ nav a{
 nav a{
     color: #6cb8ff;
 }
+
+.hero{
+    min-height:90vh;
+
+    display:flex;
+    align-items:center;
+
+    padding:80px;
+}
+
+.hero-text{
+    max-width:650px;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#6CB8FF;
+}
+
+.hero h2{
+    margin-bottom:20px;
+    color:#4B657A;
+}
+
+.hero p{
+    font-size:1.2rem;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.button{
+
+    display:inline-block;
+
+    padding:15px 30px;
+
+    background:#6CB8FF;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:30px;
+
+    transition:.3s;
+}
+
+.button:hover{
+
+    background:#4BA7F8;
+
+}
