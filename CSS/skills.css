@@ -1,0 +1,105 @@
+/*====================================
+    SKILLS HERO
+====================================*/
+
+.skills-hero{
+
+    text-align:center;
+
+}
+
+.skills-hero h1{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.skills-hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+/*====================================
+    SKILLS SECTION
+====================================*/
+
+.skills{
+
+    margin-top:80px;
+
+}
+
+.skills h2{
+
+    margin-bottom:40px;
+
+    text-align:center;
+
+    color:var(--primary);
+
+}
+
+/*====================================
+    GRID
+====================================*/
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+/*====================================
+    CARD
+====================================*/
+
+.skill-card{
+
+    background:var(--white);
+
+    border-radius:var(--radius);
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.skill-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.skill-card ul{
+
+    list-style:disc;
+
+    margin-left:20px;
+
+}
+
+.skill-card li{
+
+    margin-bottom:12px;
+
+}

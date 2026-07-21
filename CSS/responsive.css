@@ -1,0 +1,44 @@
+/*====================================
+    RESPONSIVE
+====================================*/
+
+@media(max-width:768px){
+
+    .hero{
+
+        text-align:center;
+
+        min-height:auto;
+
+    }
+
+    .hero h1{
+
+        font-size:2.8rem;
+
+    }
+
+    .cta-buttons,
+    .project-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    footer nav ul{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .contact-links{
+
+        flex-direction:column;
+
+    }
+
+}

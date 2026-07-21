@@ -1,0 +1,41 @@
+/*====================================
+    DESIGN SYSTEM
+====================================*/
+
+:root{
+
+    /* Colors */
+
+    --primary:#6CB8FF;
+    --primary-dark:#4BA7F8;
+
+    --background:#F8FCFF;
+    --white:#FFFFFF;
+
+    --dark:#203040;
+    --grey:#4B657A;
+
+    /* Typography */
+
+    --font:"Poppins",sans-serif;
+
+    /* Layout */
+
+    --container-width:1100px;
+
+    --section-padding:100px;
+
+    /* Border Radius */
+
+    --radius:20px;
+    --radius-button:30px;
+
+    /* Shadows */
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    /* Animation */
+
+    --transition:.3s ease;
+
+}
