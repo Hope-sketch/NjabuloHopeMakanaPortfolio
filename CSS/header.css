@@ -10,17 +10,9 @@ header{
 
     align-items:center;
 
-    padding:25px 10%;
+    padding:25px 8%;
 
-    background:var(--white);
-
-    position:sticky;
-
-    top:0;
-
-    z-index:1000;
-
-    box-shadow:0 2px 15px rgba(0,0,0,.05);
+    flex-wrap:wrap;
 
 }
 
@@ -50,13 +42,14 @@ header nav ul{
 
     display:flex;
 
-    align-items:center;
+    flex-wrap:wrap;
 
-    gap:35px;
+    justify-content:flex-end;
 
-    list-style:none;
+    gap:30px;
 
 }
+
 
 header nav ul li a{
 
