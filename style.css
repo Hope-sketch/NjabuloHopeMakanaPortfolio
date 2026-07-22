@@ -2,33 +2,33 @@
     FOUNDATION
 ====================================*/
 
-@import url("css/reset.css");
+@import url("CSS/reset.css");
 
-@import url("css/variables.css");
+@import url("CSS/variables.css");
 
-@import url("css/global.css");
+@import url("CSS/global.css");
 
 /*====================================
     COMPONENTS
 ====================================*/
 
-@import url("css/header.css");
+@import url("CSS/header.css");
 
-@import url("css/buttons.css");
+@import url("CSS/buttons.css");
 
-@import url("css/footer.css");
+@import url("CSS/footer.css");
 
 /*====================================
     PAGE SECTIONS
 ====================================*/
 
-@import url("css/hero.css");
+@import url("CSS/hero.css");
 
-@import url("css/about.css");
+@import url("CSS/about.css");
 
-@import url("css/projects.css");
+@import url("CSS/projects.css");
 
-@import url("css/skills.css");
+@import url("CSS/skills.css");
 
 @import url(CSS/contact.css);
 
@@ -45,8 +45,8 @@
     EFFECTS
 ====================================*/
 
-@import url("css/animations.css");
+@import url("CSS/animations.css");
 
-@import url("css/responsive.css");
+@import url("CSS/responsive.css");
 
 @import url("CSS/utilities.css");
