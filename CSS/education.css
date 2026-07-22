@@ -1,0 +1,267 @@
+/*====================================
+    EDUCATION HERO
+====================================*/
+
+.education-hero{
+
+    text-align:center;
+
+}
+
+.education-hero h1{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.education-hero p{
+
+    max-width:750px;
+
+    margin:auto;
+
+    color:var(--grey);
+
+}
+
+/*====================================
+    TIMELINE
+====================================*/
+
+.education-timeline{
+
+    background:var(--white);
+
+}
+
+.education-timeline h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-size:2.5rem;
+
+}
+
+.timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+/*====================================
+    TIMELINE CARD
+====================================*/
+
+.timeline-card{
+
+    background:var(--background);
+
+    border-radius:var(--radius);
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.timeline-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.timeline-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.timeline-card h4{
+
+    margin:20px 0;
+
+}
+
+.date{
+
+    font-weight:bold;
+
+    color:var(--grey);
+
+    margin-bottom:20px;
+
+}
+
+.timeline-card p{
+
+    margin-bottom:25px;
+
+}
+
+/*====================================
+    EDUCATION DETAILS
+====================================*/
+
+.education-section{
+
+    margin-top:40px;
+
+}
+
+.education-section h2{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+    font-size:2.2rem;
+
+}
+
+.education-section h3{
+
+    margin-top:30px;
+
+    margin-bottom:15px;
+
+}
+
+.education-section p{
+
+    margin-bottom:20px;
+
+}
+
+.education-section ul{
+
+    margin-left:25px;
+
+    list-style:disc;
+
+}
+
+.education-section li{
+
+    margin-bottom:12px;
+
+}
+
+/*====================================
+    CERTIFICATES
+====================================*/
+
+.education-certificates{
+
+    background:var(--white);
+
+    text-align:center;
+
+}
+
+.education-certificates h2{
+
+    margin-bottom:20px;
+
+    font-size:2.5rem;
+
+}
+
+.education-certificates p{
+
+    max-width:700px;
+
+    margin:0 auto 50px;
+
+}
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.certificate-card{
+
+    background:var(--background);
+
+    border-radius:var(--radius);
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.certificate-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+/*====================================
+    DOCUMENTS
+====================================*/
+
+.documents{
+
+    text-align:center;
+
+}
+
+.documents h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+
+}
+
+.documents p{
+
+    max-width:700px;
+
+    margin:0 auto 40px;
+
+}
+
+/*====================================
+    BUTTON CONTAINER
+====================================*/
+
+.documents .contact-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}

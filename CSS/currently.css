@@ -1,0 +1,57 @@
+/*====================================
+    CURRENTLY
+====================================*/
+
+.currently{
+
+    text-align:center;
+
+    background:var(--white);
+
+}
+
+.currently h2{
+
+    margin-bottom:50px;
+
+    font-size:2.5rem;
+
+}
+
+.currently-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.currently-card{
+
+    background:var(--background);
+
+    padding:35px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.currently-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.currently-card h3{
+
+    margin-bottom:15px;
+
+    color:var(--primary);
+
+}
