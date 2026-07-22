@@ -29,3 +29,25 @@
     margin-bottom:20px;
 
 }
+
+/*====================================
+    TYPING EFFECT
+====================================*/
+
+.cursor{
+
+    color:var(--primary);
+
+    animation:blink .8s infinite;
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
