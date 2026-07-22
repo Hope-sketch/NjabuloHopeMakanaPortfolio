@@ -24,203 +24,107 @@
 
     color:var(--grey);
 
-}
-
-/*====================================
-    TIMELINE
-====================================*/
-
-.education-timeline{
-
-    background:var(--white);
-
-}
-
-.education-timeline h2{
-
-    text-align:center;
-
-    margin-bottom:50px;
-
-    font-size:2.5rem;
-
-}
-
-.timeline{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
-
-    gap:35px;
+    line-height:1.8;
 
 }
 
 /*====================================
-    TIMELINE CARD
-====================================*/
-
-.timeline-card{
-
-    background:var(--background);
-
-    border-radius:var(--radius);
-
-    padding:35px;
-
-    box-shadow:var(--shadow);
-
-    transition:var(--transition);
-
-}
-
-.timeline-card:hover{
-
-    transform:translateY(-8px);
-
-}
-
-.timeline-card h3{
-
-    color:var(--primary);
-
-    margin-bottom:10px;
-
-}
-
-.timeline-card h4{
-
-    margin:20px 0;
-
-}
-
-.date{
-
-    font-weight:bold;
-
-    color:var(--grey);
-
-    margin-bottom:20px;
-
-}
-
-.timeline-card p{
-
-    margin-bottom:25px;
-
-}
-
-/*====================================
-    EDUCATION DETAILS
+    EDUCATION SECTION
 ====================================*/
 
 .education-section{
 
-    margin-top:40px;
+    padding:80px 10%;
 
 }
 
 .education-section h2{
 
+    font-size:2.5rem;
+
     color:var(--primary);
-
-    margin-bottom:20px;
-
-    font-size:2.2rem;
-
-}
-
-.education-section h3{
-
-    margin-top:30px;
 
     margin-bottom:15px;
 
 }
 
-.education-section p{
+.education-section h3{
+
+    font-size:1.4rem;
+
+    color:var(--text);
+
+    margin-top:35px;
 
     margin-bottom:20px;
 
 }
 
-.education-section ul{
+.education-section p{
 
-    margin-left:25px;
+    margin-bottom:30px;
 
-    list-style:disc;
+    color:var(--grey);
 
-}
+    line-height:1.8;
 
-.education-section li{
-
-    margin-bottom:12px;
+    max-width:900px;
 
 }
 
 /*====================================
-    CERTIFICATES
+    TECHNOLOGY / MODULE TAGS
 ====================================*/
 
-.education-certificates{
+.tech-stack{
 
-    background:var(--white);
+    display:flex;
 
-    text-align:center;
+    flex-wrap:wrap;
 
-}
+    gap:15px;
 
-.education-certificates h2{
-
-    margin-bottom:20px;
-
-    font-size:2.5rem;
+    margin-bottom:35px;
 
 }
 
-.education-certificates p{
+.tech-stack span{
 
-    max-width:700px;
+    background:#EAF7FF;
 
-    margin:0 auto 50px;
+    color:var(--text);
 
-}
+    padding:12px 20px;
 
-.certificate-grid{
+    border-radius:30px;
 
-    display:grid;
+    font-size:.95rem;
 
-    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
-
-    gap:35px;
-
-}
-
-.certificate-card{
-
-    background:var(--background);
-
-    border-radius:var(--radius);
-
-    padding:35px;
-
-    box-shadow:var(--shadow);
+    font-weight:600;
 
     transition:var(--transition);
 
-}
-
-.certificate-card:hover{
-
-    transform:translateY(-8px);
+    cursor:default;
 
 }
 
-.certificate-card h3{
+.tech-stack span:hover{
+
+    background:var(--primary);
+
+    color:var(--white);
+
+    transform:translateY(-3px);
+
+}
+
+/*====================================
+    RESULTS
+====================================*/
+
+.education-section strong{
 
     color:var(--primary);
-
-    margin-bottom:20px;
 
 }
 
@@ -231,6 +135,8 @@
 .documents{
 
     text-align:center;
+
+    background:var(--background);
 
 }
 
@@ -244,17 +150,17 @@
 
 .documents p{
 
-    max-width:700px;
+    max-width:750px;
 
     margin:0 auto 40px;
 
+    color:var(--grey);
+
+    line-height:1.8;
+
 }
 
-/*====================================
-    BUTTON CONTAINER
-====================================*/
-
-.documents .contact-buttons{
+.contact-buttons{
 
     display:flex;
 
@@ -263,5 +169,75 @@
     gap:20px;
 
     flex-wrap:wrap;
+
+}
+
+/*====================================
+    EDUCATION CARDS
+====================================*/
+
+.education-section{
+
+    background:var(--white);
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    margin:60px auto;
+
+    transition:var(--transition);
+
+}
+
+.education-section:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/*====================================
+    RESPONSIVE
+====================================*/
+
+@media(max-width:768px){
+
+    .education-hero h1{
+
+        font-size:2.4rem;
+
+    }
+
+    .education-section{
+
+        padding:50px 8%;
+
+    }
+
+    .education-section h2{
+
+        font-size:2rem;
+
+    }
+
+    .education-section h3{
+
+        font-size:1.2rem;
+
+    }
+
+    .tech-stack{
+
+        justify-content:center;
+
+    }
+
+    .contact-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
 
 }
