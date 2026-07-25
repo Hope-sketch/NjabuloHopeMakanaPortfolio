@@ -208,7 +208,7 @@ This project is available under the MIT License.
 
 **Thank you for visiting my portfolio repository!**
 
-⭐ If you enjoyed this project, consider giving it a star.
+ If you enjoyed this project, consider giving it a star.
 
 </p>
 
